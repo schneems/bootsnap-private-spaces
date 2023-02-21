@@ -1,0 +1,101 @@
+BOOTSNAP_LOG=1
+BUNDLER_ORIG_BUNDLER_SETUP=BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL
+BUNDLER_ORIG_BUNDLER_VERSION=BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL
+BUNDLER_ORIG_BUNDLE_BIN_PATH=BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL
+BUNDLER_ORIG_BUNDLE_GEMFILE=/app/Gemfile
+BUNDLER_ORIG_GEM_HOME=BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL
+BUNDLER_ORIG_GEM_PATH=/app/vendor/bundle/ruby/3.2.0:
+BUNDLER_ORIG_MANPATH=BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL
+BUNDLER_ORIG_PATH=
+  /app/bin
+  /app/vendor/bundle/bin
+  /app/vendor/bundle/ruby/3.2.0/bin
+  /usr/local/sbin
+  /usr/local/bin
+  /usr/sbin
+  /usr/bin
+  /sbin
+  /bin
+BUNDLER_ORIG_RB_USER_INSTALL=BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL
+BUNDLER_ORIG_RUBYLIB=BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL
+BUNDLER_ORIG_RUBYOPT=BUNDLER_ENVIRONMENT_PRESERVER_INTENTIONALLY_NIL
+BUNDLER_SETUP=/app/vendor/ruby-3.2.1/lib/ruby/3.2.0/bundler/setup
+BUNDLER_VERSION=2.4.6
+BUNDLE_BIN=vendor/bundle/bin
+BUNDLE_BIN_PATH=/app/vendor/ruby-3.2.1/lib/ruby/gems/3.2.0/gems/bundler-2.4.6/libexec/bundle
+BUNDLE_DEPLOYMENT=1
+BUNDLE_GEMFILE=/app/Gemfile
+BUNDLE_PATH=vendor/bundle
+BUNDLE_WITHOUT=development:test
+COLUMNS=211
+DISABLE_SPRING=1
+DYNO=run.5839
+GEM_HOME=/app/vendor/bundle/ruby/3.2.0
+GEM_PATH=
+HEROKU_DNS_APP_ID=0ffa14f6-f0fe-4107-9f49-99af0c5f33e7
+HEROKU_DNS_APP_NAME=infinite-badlands-96469.app.localspace
+HEROKU_DNS_DYNO_NAME=5839.run.infinite-badlands-96469.app.localspace
+HEROKU_DNS_FORMATION_NAME=run.infinite-badlands-96469.app.localspace
+HEROKU_PRIVATE_IP=10.0.133.196
+HOME=/app
+LANG=en_US.UTF-8
+LINES=63
+MALLOC_ARENA_MAX=2
+PATH=
+  /app/vendor/bundle/ruby/3.2.0/bin
+  /app/bin
+  /app/vendor/bundle/bin
+  /usr/local/sbin
+  /usr/local/bin
+  /usr/sbin
+  /usr/bin
+  /sbin
+  /bin
+PORT=55811
+PS1=\[\033[01;34m\]\w\[\033[00m\] \[\033[01;32m\]$ \[\033[00m\]
+PWD=/app
+RACK_ENV=production
+RAILS_ENV=production
+RAILS_LOG_TO_STDOUT=enabled
+RAILS_SERVE_STATIC_FILES=enabled
+RUBYLIB=
+RUBYOPT=-r/app/vendor/ruby-3.2.1/lib/ruby/3.2.0/bundler/setup
+SECRET_KEY_BASE=24b8a8bbea73ac3cb35e16f2c417a2745a03433b125f7190a1c65c846ede8275d8f300f8a3ba2fdb4367ced6106893f25dfc691b0820d30bb09e1d62b3e52ecb
+SHLVL=1
+TERM=xterm-256color
+_=/app/vendor/bundle/bin/rake
+Build directory is /app should be /app
+List processor information with "lscpu":
+Architecture:                    x86_64
+CPU op-mode(s):                  32-bit, 64-bit
+Address sizes:                   46 bits physical, 48 bits virtual
+Byte Order:                      Little Endian
+CPU(s):                          2
+On-line CPU(s) list:             0,1
+Vendor ID:                       GenuineIntel
+Model name:                      Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz
+CPU family:                      6
+Model:                           85
+Thread(s) per core:              2
+Core(s) per socket:              1
+Socket(s):                       1
+Stepping:                        7
+BogoMIPS:                        5999.99
+Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc aperfmperf tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single kaiser fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx avx512f rdseed adx smap clflushopt clwb avx512cd xsaveopt xsavec xgetbv1 ida arat pku
+Hypervisor vendor:               KVM
+Virtualization type:             full
+L1d cache:                       32 KiB (1 instance)
+L1i cache:                       32 KiB (1 instance)
+L2 cache:                        1 MiB (1 instance)
+L3 cache:                        35.8 MiB (1 instance)
+NUMA node(s):                    1
+NUMA node0 CPU(s):               0,1
+Vulnerability Itlb multihit:     KVM: Vulnerable
+Vulnerability L1tf:              Mitigation; PTE Inversion
+Vulnerability Mds:               Vulnerable: Clear CPU buffers attempted, no microcode; SMT Host state unknown
+Vulnerability Meltdown:          Mitigation; PTI
+Vulnerability Spec store bypass: Vulnerable
+Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:        Mitigation; Retpolines, IBPB kernel-off, STIBP disabled, RSB filling
+Vulnerability Srbds:             Not affected
+Vulnerability Tsx async abort:   Not affected
